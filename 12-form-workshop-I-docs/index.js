@@ -10,7 +10,7 @@ const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
             '</div>'
         ].join('');
 
-        alertPlaceholder.innerHTML = ''; // Clear existing alerts
+        alertPlaceholder.innerHTML = ''; 
         alertPlaceholder.append(wrapper);
     };
 
@@ -20,8 +20,7 @@ const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
             if (!validateForm()) {
                 appendAlert('Please fill in all fields!', 'warning', true);
             } else {
-                // Proceed with your form submission or other actions
-                // ...
+                appendAlert('Thanks for filling in the information!', 'success', true);
             }
         });
     }
