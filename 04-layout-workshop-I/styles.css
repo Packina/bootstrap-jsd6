@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    color: white;
+}
+.box {
+    background: #0C356A;
+    min-height: 75px;
+    width: 100%;
+  }
+
+  body {
+    background-color: black;
+    margin-top: 40px;
+    height: 100vh;
+  }
+  .square{
+    aspect-ratio: 1/1;
+  }
